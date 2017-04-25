@@ -5,6 +5,6 @@ test('should bark', (assert) => {
   let dog = new Dog();
   let result = dog.bark();
 
-  assert.equal(result, "The any dog says HauHau");
+  assert.equal(result, "The husky dog says HauHau");
   assert.end();
 });
