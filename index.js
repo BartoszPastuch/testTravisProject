@@ -1,3 +1,9 @@
-var test = "test";
+function Dog(type) {
+  this.type = type || "any";
+}
 
-console.log('test: ', test);
+Dog.prototype.bark = function(says){
+  return `The ${this.type} dog says ${says || "HauHau"}`
+};
+
+module.exports = Dog;

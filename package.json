@@ -4,8 +4,11 @@
   "description": "Test Project for Travis CI",
   "main": "index.js",
   "scripts": {
-		
+    "test": "node test.js"
   },
   "author": "Bartosz Pastuch",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
