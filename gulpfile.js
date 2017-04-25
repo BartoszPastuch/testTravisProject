@@ -14,6 +14,7 @@ var paths = {
 
 gulp.task('travis', ['build', 'testServerJS'], function(){
   process.exit(0);
+  
 });
 
 // Not all tasks need to use streams
