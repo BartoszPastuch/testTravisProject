@@ -1,0 +1,11 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "Test Project for Travis CI",
+  "main": "index.js",
+  "scripts": {
+		
+  },
+  "author": "Bartosz Pastuch",
+  "license": "MIT"
+}
